@@ -1,0 +1,9 @@
+# SSH / agent stuff
+eval $(ssh-agent -s)
+eval $(ssh-agent -s).pub
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
